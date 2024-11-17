@@ -63,3 +63,10 @@ body{
     margin: 10px 0px;
     color: white;
 }
+
+/* Error screen */
+
+.card-text-error{
+    font-family: Nunito;
+    font-size: 18px;
+}
