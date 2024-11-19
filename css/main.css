@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    font-family: Nunito;
+}
+
+/* Main Body Styling */
+body{
+    background-color: rgb(211, 217, 226);
+    
+}
+
+.container{
+    margin: 10px auto;
+}
+
+/* Main Page Header */
+.main-page-header{
+    padding: 10px 100px;
+}
+
+/* Company Name */
+.main-page-header .company-name{
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Navigation */
+.navigation{
+    /* border: 1px solid white; */
+    margin-left: 20px;
+}
+
+.navigation li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 15px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Display Name */
+.display-name{
+    color: #fff;
+    /* font-size: 18px; */
+}
+
+/* Transact Button */
+#transact-btn{
+    background-color: #ffb114;
+}
+
+#transfer-btn{
+    width: 100%;
+
+    background-color: #ffb114;
+}
+
+#payment-btn{
+    width: 100%;
+
+    background-color: #ffb114;
+}
+
+/* Card: Transfer Card */
+.payment-card{
+    display: none;
+}
+
+/* Card: Payment Card */
+.transfer-card{
+    display: none;
+}
